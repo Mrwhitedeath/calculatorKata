@@ -16,11 +16,15 @@ public class Main {
 
         System.out.println(calcInput[0] + " _ " + calcInput[1] + " _ " + calcInput[2]);
 
+        int result;
+
         if (numbers.isArabic(calcInput[0]) & numbers.isArabic(calcInput[2])){
-            int result;
             result = numbers.calculate(Integer.parseInt(calcInput[0]), Integer.parseInt(calcInput[2]), calcInput[1]);
             System.out.println("Результат: " + result);
-        } else if (numbers.isRoman(calcInput[0]) & numbers.isRoman(calcInput[0])){
+        } else if (numbers.isRoman(calcInput[0]) & numbers.isRoman(calcInput[2])){
+            result = numbers.calculate(numbers.romanToArabic(calcInput[0]), numbers.romanToArabic(calcInput[2]),
+                    calcInput[1]);
+            System.out.println("Результат: " + result);
         } else {
             System.out.println("Некорректное выражение");
         }
@@ -44,7 +48,7 @@ class Numbers{
          return num.matches("[XVI]{1,4}");
     }
 
-    int romanToArabic(String num){
+    int romanToArabic(@NotNull String num){
          int result = 0;
          switch (num){
              case("I")    -> result = 1;

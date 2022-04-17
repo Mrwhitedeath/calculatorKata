@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="460cd45d-d09b-4ec5-a018-fb2cbb9c0f83" name="Changes" comment="add method isRoman">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="460cd45d-d09b-4ec5-a018-fb2cbb9c0f83" name="Changes" comment="add method romanToArabic">
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,7 +55,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1650165506305</updated>
-      <workItem from="1650165510476" duration="9396000" />
+      <workItem from="1650165510476" duration="9844000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1650165665867</created>
@@ -93,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650181791654</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add method romanToArabic">
+      <created>1650183384726</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1650183384726</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,6 +120,7 @@
     <MESSAGE value="first" />
     <MESSAGE value="class calculate" />
     <MESSAGE value="add method isRoman" />
-    <option name="LAST_COMMIT_MESSAGE" value="add method isRoman" />
+    <MESSAGE value="add method romanToArabic" />
+    <option name="LAST_COMMIT_MESSAGE" value="add method romanToArabic" />
   </component>
 </project>
