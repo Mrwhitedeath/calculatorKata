@@ -40,8 +40,25 @@ class Numbers{
         return result;
     }
 
-    boolean isRoman(String num){
+    boolean isRoman(@NotNull String num){
          return num.matches("[XVI]{1,4}");
+    }
+
+    int romanToArabic(String num){
+         int result = 0;
+         switch (num){
+             case("I")    -> result = 1;
+             case("II")   -> result = 2;
+             case("III")  -> result = 3;
+             case("IV")   -> result = 4;
+             case("V")    -> result = 5;
+             case("VI")   -> result = 6;
+             case("VII")  -> result = 7;
+             case("VIII") -> result = 8;
+             case("IX")   -> result = 9;
+             case("X")    -> result = 10;
+         }
+         return result;
     }
 
     int calculate(int num1, int num2, @NotNull String operation){
